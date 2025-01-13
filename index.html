@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Inas Fahira Ramadani</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        section {
+            padding: 20px;
+        }
+        .works img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Inas Fahira Ramadani</h1>
+    <p>Welcome to my portfolio</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#works">Works</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>About Me</h2>
+    <p>Hello! I am a designer and aspiring web developer with experience in graphic design and basic web development. I enjoy creating visually appealing designs and learning new skills in the digital field.</p>
+</section>
+
+<section id="works">
+    <h2>My Works</h2>
+    <div class="works">
+        <img src="gambar/Label Dapur Heboh - Inas.png" alt="Work 1">
+        <img src="gambar/Logo 2.png" alt="Work 2">
+        <img src="gambar/open po (1).png" alt="Work 3">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Inas. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
